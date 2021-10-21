@@ -1,0 +1,21 @@
+{
+  "name": "fastify-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "fastify start -w -P api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^3.29.3",
+    "fastify": "^3.22.1",
+    "fastify-cli": "^2.13.0",
+    "fastify-plugin": "^3.0.0"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4"
+  }
+}
